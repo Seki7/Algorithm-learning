@@ -1,0 +1,27 @@
+package cn.edu.nju.ChapterOne;
+
+public class Heapsort {
+	public void maxHeapify(int[] arr, int i) {
+		int left = 2 * i;
+		int right = 2 * i + 1;
+		int largest = 0;
+		if (arr[i] >= arr[left]) {
+			largest = i;
+		} else {
+			largest = left;
+		}
+		if (arr[largest] < arr[right]){
+			largest = right;
+		}
+		if (arr[largest]!=arr[i]) {
+			int temp = arr[i];
+			arr[i]=arr[largest];
+			arr[largest] = temp;
+			
+		}
+
+	}
+public static void main(String[] args) {
+	int[] arr={2,1,4};
+}
+}
