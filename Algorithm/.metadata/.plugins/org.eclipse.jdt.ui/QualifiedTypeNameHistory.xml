@@ -3,7 +3,6 @@
 <fullyQualifiedTypeName name="javax.swing.plaf.nimbus.AbstractRegionPainter"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaName"/>
 <fullyQualifiedTypeName name="javax.xml.transform.Templates"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.MaxSubArr.result"/>
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.result"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -12,7 +11,10 @@
 <fullyQualifiedTypeName name="java.awt.event.MouseWheelEvent"/>
 <fullyQualifiedTypeName name="javax.sound.midi.MidiChannel"/>
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Result"/>
+<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Heapsort"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Utils"/>
+<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Utils"/>
 </qualifiedTypeNameHistroy>

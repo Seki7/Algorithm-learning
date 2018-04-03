@@ -1,0 +1,46 @@
+package cn.edu.nju.ChapterOne;
+
+import java.util.Arrays;
+
+public class PriorityQueue {
+	private int n;
+	private int[] arr;
+
+	public PriorityQueue(int[] arr) {
+		n = arr.length;
+		Heapsort.bulidMaxHeap(arr);
+		this.arr = arr;
+	}
+
+	public int maximum() {
+		return arr[0];
+
+	}
+
+	public int extravtMaximum() {
+		if (n <= 0) {
+			System.out.println("NO LEFT ELEMENT");
+			Integer integer = (Integer) null;
+			return integer;
+		} else {
+			int max = arr[0];
+			arr[0] = arr[n - 1];
+			int[] tempArr = Arrays.copyOf(arr, n - 1);
+			Heapsort.maxHeapify(tempArr, 0);
+			System.arraycopy(tempArr, 0, arr, 0, n - 1);
+			n--;
+			return max;
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr = Utils.randomArr(3);
+		System.out.println(Arrays.toString(arr));
+		PriorityQueue priorityQueue = new PriorityQueue(arr);
+		System.out.println(priorityQueue.extravtMaximum());
+		System.out.println(priorityQueue.extravtMaximum());
+		System.out.println(priorityQueue.extravtMaximum());
+		System.out.println(priorityQueue.extravtMaximum());
+
+	}
+}
