@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;integer&apos; from expression &apos;(Integer)null&apos;&#x0D;&#x0A;- Original project: &apos;Algorithm&apos;&#x0D;&#x0A;- Variable name: &apos;integer&apos;&#x0D;&#x0A;- Destination method: &apos;cn.edu.nju.ChapterOne.PriorityQueue.extravtMaximum()&apos;&#x0D;&#x0A;- Variable expression: &apos;(Integer)null&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;integer&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;cn.edu.nju.ChapterOne{PriorityQueue.java" name="integer" replace="true" selection="396 14" stamp="1522744525169" version="1.0"/>
+</session>

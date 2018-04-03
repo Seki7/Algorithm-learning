@@ -1,0 +1,49 @@
+package cn.edu.nju.ChapterOne;
+
+import java.util.Arrays;
+
+public class Heapsort {
+	public static void maxHeapify(int[] arr, int i) {
+		int left = 2 * i + 1;
+		int right = 2 * i + 2;
+		int largest = 0;
+		if (arr[i] >= arr[left]) {
+			largest = i;
+		} else {
+			largest = left;
+		}
+		if (arr[largest] < arr[right]) {
+			largest = right;
+		}
+		if (arr[largest] != arr[i]) {
+			int temp = arr[i];
+			arr[i] = arr[largest];
+			arr[largest] = temp;
+		}
+	}
+
+	public static void bulidMaxHeap(int[] arr) {
+		for (int i = arr.length / 2 - 1; i >= 0; i--) {
+			maxHeapify(arr, i);
+
+		}
+	}
+
+	public static void heapSort(int[] arr) {
+		bulidMaxHeap(arr);
+		for (int i = arr.length - 1; i > 0; i--) {
+			int temp = arr[0];
+			arr[0] = arr[i];
+			arr[i] = temp;
+			int[] tempArr = arr;
+			tempArr = Arrays.copyOf(tempArr, i);
+		}
+	}
+
+	public static void main(String[] args) {
+		int[] arr = Utils.randomArr(9);
+		System.out.println(Arrays.toString(arr));
+		int[] temp = Arrays.copyOf(arr, 8);
+		System.out.println(Arrays.toString(temp));
+	}
+}
