@@ -1,3 +1,4 @@
 # Algorithm-learning
 Personal implementations for 'Introduction to Algorithm (Three Edition)' based on Java
-Have a test
+
+Let the Algorithm be your eclispe workplace. 
