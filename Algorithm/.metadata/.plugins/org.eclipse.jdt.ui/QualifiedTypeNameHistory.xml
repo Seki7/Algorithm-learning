@@ -13,8 +13,11 @@
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Result"/>
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Heapsort"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.PriorityQueue"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.PriorityQueue"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ORBPackage.InconsistentTypeCode"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="cn.edu.nju.ChapterOne.Utils"/>
 </qualifiedTypeNameHistroy>
